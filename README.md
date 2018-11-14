@@ -28,18 +28,32 @@
 # Документация(пример)
 Документация проекта должна иметь вид:
 Unit.h //Заголовочный файл класса Unit
+
   Переменные:
+
     QString unitName; //Имя юнита
+
     int unitHealth; //Здоровье юнита
+
   Функции:
+
     QString getUnitName(); //Возвращает имя юнита
+
     void setUnitName(QString newUnitName); //Присваивает unitName значение типа QString указанное в newUnitName
+
     int getUnitHealth(); //Возвращает здоровье юнита
+
     void setUnitHealth(int newUnitHealth); //Присваивает unitHealth значение типа int указанное в newUnitHealth
+
     Unit(QString newUnitName); //Присваивает unitName значение типа QString указанное в newUnitName, присваивает unitHealth значение типа int, равное 100; Конструктор класса
+
     ~Unit(); //Деструктор класса
+
 main.cpp //Основной файл проекта
+
   Переменные:
+
   double screenAspectRatio; //Дробь, обозночающая соотношение сторон устройства
+
 
 
